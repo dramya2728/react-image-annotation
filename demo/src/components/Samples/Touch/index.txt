@@ -1,5 +1,5 @@
 class Touch extends Component {
-  state = { allowTouch: true }
+  state = { allowTouch: false }
 
   toggleAllowTouch = () => {
     this.setState((prevState) => (
